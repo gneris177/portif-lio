@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+}
+html,
+body {
+    background-color: #fff;
+    color: #555;
+    font-family: "Lato";
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden; /*isto esconde tudo o que va para alem do eixo x*/
+}
