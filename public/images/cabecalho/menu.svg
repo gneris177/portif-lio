@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="5.7414856mm"
+   height="4.3919497mm"
+   viewBox="0 0 5.7414855 4.3919497"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   sodipodi:docname="menu.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="3.959798"
+     inkscape:cx="20.45931"
+     inkscape:cy="-10.773058"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="704"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-58.53997,-115.11669)">
+    <g
+       id="g94"
+       transform="matrix(0.01491415,0,0,0.01659431,58.53997,114.11851)"
+       style="fill:#efe9ee">
+      <g
+         id="g29"
+         style="fill:#efe9ee">
+        <g
+           id="Menu"
+           style="fill:#efe9ee">
+          <path
+             id="path10"
+             d="m 12.03,84.212 h 360.909 c 6.641,0 12.03,-5.39 12.03,-12.03 0,-6.641 -5.39,-12.03 -12.03,-12.03 H 12.03 C 5.39,60.152 0,65.541 0,72.182 c 0,6.641 5.39,12.03 12.03,12.03 z"
+             inkscape:connector-curvature="0"
+             style="fill:#efe9ee" />
+          <path
+             id="path12"
+             d="M 372.939,180.455 H 12.03 c -6.641,0 -12.03,5.39 -12.03,12.03 0,6.64 5.39,12.03 12.03,12.03 h 360.909 c 6.641,0 12.03,-5.39 12.03,-12.03 0,-6.64 -5.389,-12.03 -12.03,-12.03 z"
+             inkscape:connector-curvature="0"
+             style="fill:#efe9ee" />
+          <path
+             id="path14"
+             d="M 372.939,300.758 H 12.03 c -6.641,0 -12.03,5.39 -12.03,12.03 0,6.641 5.39,12.03 12.03,12.03 h 360.909 c 6.641,0 12.03,-5.39 12.03,-12.03 0.001,-6.641 -5.389,-12.03 -12.03,-12.03 z"
+             inkscape:connector-curvature="0"
+             style="fill:#efe9ee" />
+        </g>
+        <g
+           id="g17"
+           style="fill:#efe9ee" />
+        <g
+           id="g19"
+           style="fill:#efe9ee" />
+        <g
+           id="g21"
+           style="fill:#efe9ee" />
+        <g
+           id="g23"
+           style="fill:#efe9ee" />
+        <g
+           id="g25"
+           style="fill:#efe9ee" />
+        <g
+           id="g27"
+           style="fill:#efe9ee" />
+      </g>
+      <g
+         id="g31"
+         style="fill:#efe9ee" />
+      <g
+         id="g33"
+         style="fill:#efe9ee" />
+      <g
+         id="g35"
+         style="fill:#efe9ee" />
+      <g
+         id="g37"
+         style="fill:#efe9ee" />
+      <g
+         id="g39"
+         style="fill:#efe9ee" />
+      <g
+         id="g41"
+         style="fill:#efe9ee" />
+      <g
+         id="g43"
+         style="fill:#efe9ee" />
+      <g
+         id="g45"
+         style="fill:#efe9ee" />
+      <g
+         id="g47"
+         style="fill:#efe9ee" />
+      <g
+         id="g49"
+         style="fill:#efe9ee" />
+      <g
+         id="g51"
+         style="fill:#efe9ee" />
+      <g
+         id="g53"
+         style="fill:#efe9ee" />
+      <g
+         id="g55"
+         style="fill:#efe9ee" />
+      <g
+         id="g57"
+         style="fill:#efe9ee" />
+      <g
+         id="g59"
+         style="fill:#efe9ee" />
+    </g>
+  </g>
+</svg>

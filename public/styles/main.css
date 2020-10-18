@@ -1,55 +1,238 @@
-body {
-    color: white;
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
+.cabecalho-itens a {
+  padding: 0 20px;
+  text-decoration: none;
+  color: #011627;
+}
+
+.cabecalho-itens {
+  display: flex;
+}
+
+.box-contato, .cabecalho a:hover {
+  background-color: #e71d36;
+  color: #fff;
+  border-radius: 14px;
+}
+
+.box-contato {
+  margin-left: 8px;
+}
+
+.cabecalho-itens-mobile a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+}
+
+.icon-menu, .icon-close, .cabecalho-itens-mobile {
+  display: none;
+}
+
+.inicio {
+  display: flex;
+  justify-content: space-between;
+  padding: 3%;
+}
+
+.inicio h1 {
+  color: #011627;
+  font: 2.6em "Hammersmith One", sans-serif;
+}
+
+.inicio hr {
+  width: 100px;
+  height: 3px;
+  border-color: #e71d36;
+  background-color: #e71d36;
+}
+
+.inicio img {
+  height: 400px;
+}
+
+.box-texto {
+  font-size: 0.9em;
+  margin-top: 4%;
+  color: rgb(105, 101, 101);
+}
+
+.btn-saiba {
+  border: none;
+  border-radius: 15px;
+  width: 120px;
+  height: 30px;
+  background-color: #e71d36;
+  color: #fff;
+  margin-top: 30px;
+}
+
+.waves .mobile {
+  display: none;
+}
+
+/* Animação */
+svg {
+  animation: move-left 4s infinite alternate;
+}
+
+@keyframes wave {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+  50% {
+    left: -2000px;
+    top: 200px;
+  }
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+/* ... */
+
+.apresentacao {
+  margin: -4px;
+  padding: 22px;
+  text-align: center;
+  background-color: #011627;
+  color: #fff;
+  font-size: 1.2em;
+}
+
+.servicos {
+  padding: 30px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.servicos-itens {
+  display: flex;
+  justify-content: space-around;
+}
+
+.servicos-itens div {
+  text-align: center;
+  font-size: 0.7em;
+  height: 250px;
+  width: 22%;
+  border-radius: 10px;
+  box-shadow: 8px 5px 5px rgba(0, 0, 0, 0.2);
+  padding: 15px ;
+}
+
+.descricao-servicos {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  font: 14px "Bai Jamjuree", sans-serif;
+}
+
+.projetos {
+  text-align: center;
+  background-color: #011627;
+}
+
+footer {
+  background-color: #212529;
+  color: #fff;
+  padding: 30px;
+}
+
+@media (max-width: 650px) {
+  .cabecalho {
+    background-color: #011627;
+    color: #fff;
+  }
+
+  .cabecalho-itens {
+    display: none;
+  }
+
+  .cabecalho-itens-mobile {
+    flex-direction: column;
+    position: absolute;
+    background-color: #e71d36;
+    border-radius: 8px;
+    right: 1%;
+    top: 50px;
+  }
+
+  .icon-menu {
+    display: block;
+  }
+
+  .inicio img {
+    height: 280px;
+  }
+
+  .waves .desktop {
+    display: none;
+  }
+
+  .waves .mobile {
+    display: block;
+  }
+ 
+  .box-texto, .apresentacao {
+    font-size: 0.7em;
+  }
+
+  .servicos-itens div {
+    width: 100%;
+  }
+
+  .descricao-servicos {
+    flex-direction: column;
+  }
+
+  .descApp {
+    flex-direction: column-reverse;
+  }
+
+  .servicos-itens div {
+    width: 90%;
+  }
+}
+
+@media (max-width: 940px) {
+  .inicio {
+    flex-direction: column;
     align-items: center;
-    text-align: center;
-    padding: 20px;
-    background-color: #2ec4b6;
+  }
+
+  .intro {
+    margin-top: 40px;
+  }
+
+  .servicos-itens {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .servicos-itens div {
+    margin: 30px;
+    height: 80%;
+    font-size: 0.8em;
+    width: 340px;
+  }
 }
 
-.mini-menu { display: none; }
-
-.mini-menu div { margin: 0px 10px 0; }
-
-.home { margin: 8%; } 
-
-.home p { margin-top: 10%; }
-
-.home hr {
-    width: 25%;
-    height: 3px;
-    border-color:  #e71d36;
-    background-color: #e71d36;
+@media (min-width: 1200px) {
+  .box-texto {
+    font-size: 1.2em;
+  }
+  .intro img {
+    height: 500px;
+  }
 }
-
-main { background-color: #011627; }
-
-
-.btn-saibaMais {
-    margin-top: 10%;
-    height: 4.5vh;
-    width: 28vw;
-    border: none;
-    border-radius: 17px;
-    background-color: #e71d36;
-    color: #ffffff;
-}
-
-
-
-
-@media(min-width: 650px) {
-    
-}
-
-
-
-
-
-
-
-

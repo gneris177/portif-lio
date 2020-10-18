@@ -1,82 +1,221 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GNeris</title>
     <link rel="stylesheet" href="./public/styles/index.css">
     <link rel="stylesheet" href="./public/styles/main.css">
+
+    <!--Fontes-->
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <header>
-        <h2 class="titulo-1">Gabriel Neris</h2>
-        <img src="./public/images/icon-menu.svg" class="icon-menu" alt="">
-        <nav class="mini-menu">
+    <header class="cabecalho">
+        <span>Gabriel Neris</span>
+
+        <nav class="cabecalho-itens">
             <a href="">
                 <div> Home </div>
             </a>
             <a href="">
-                <div> Projetos </div>
+                <div> Projetos</div>
+            </a>
+            <a href="" class="box-contato" style="color: #fff;">
+                <div> Contato </div>
+            </a>
+        </nav>
+
+        <img src="./public/images/cabecalho/menu.svg" class="icon-menu" alt="Icone para abrir o menu">
+        <img src="./public/images/cabecalho/close.svg" class="icon-close" alt="Icone para fechar o menu">
+        <nav class="cabecalho-itens-mobile">
+            <a href="">
+                <div> Home </div>
+            </a>
+            <a href="">
+                <div> Projetos</div>
             </a>
             <a href="">
                 <div> Contato </div>
             </a>
-
-            <a href=""><img src="./public/images/fecha-menu.svg" alt=""></a>
+            <img src="" alt="">
         </nav>
     </header>
 
     <main>
-        <hr/>
-        <section class="home">
-            <h1>SEU WEB SITE 100% PERSONALIZADO</h1>
+        <section class="inicio">
+            <div class="box-texto">
+                <h1 class="titulo">SITES <br>
+                    PERSONALIZADOS</h1>
+                <hr> <br>
+                <p>
+                    O site de sua empresa é o ponto de aterrissagem <br>
+                    o primeiro contato que terá com seus clientes <br>
+                    um layout bem estruturado, cores em harmonia, <br>
+                    carregamento rápido e eficaz, transmiter confiança <br>
+                    e credibilidade a sua marca. <br>
+                    <button class="btn-saiba">Saiba mais</button>
+                </p>
+            </div>
+            <div class="intro">
+                <img src="./public/images/inicio/intro.svg" alt="">
+            </div>
+        </section>
+
+        <div class="waves">
+            <svg class="desktop" width="100%">
+                <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" stop-color="#2ec4b6" />
+                    <stop offset="50%" stop-color=" #2ec4b6" />
+                    <stop offset="100%" stop-color="#2ec4b6" />
+                </linearGradient>
+                <path fill="url(#grad1)" d="M0 67
+                  C 273,183 822,-40 1920.00,106 
+                  V 359 H 0 V 67Z">
+                    <animate repeatCount="indefinite" fill="url(#grad1)" attributeName="d" dur="15s" attributeType="XML"
+                        values="
+                    M0 77 C 473,283 822,-40 1920,116 
+                    V 359 H 0 V 67 Z; M0 77 C 473,-40
+                    1222,283 1920,136 V 359 H 0 V 67 Z; 
+                    M0 77 C 973,260 1722,-53 1920,120 
+                    V 359 H 0 V 67 Z; M0 77 C 473,283
+                    822,-40 1920,116 V 359 H 0 V 67 Z">
+                    </animate>
+                </path>
+            </svg>
+
+            <svg class="mobile" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#011627" fill-opacity="1" d="M0,96L14.1,106.7C28.2,117,56,139,85,165.3C112.9,192,141,224,169,224C197.6,224,226,192,254,160C282.4,128,311,96,339,90.7C367.1,85,395,107,424,138.7C451.8,171,480,213,508,197.3C536.5,181,565,107,593,96C621.2,85,649,139,678,149.3C705.9,160,734,128,762,133.3C790.6,139,819,181,847,176C875.3,171,904,117,932,85.3C960,53,988,43,1016,74.7C1044.7,107,1073,181,1101,197.3C1129.4,213,1158,171,1186,128C1214.1,85,1242,43,1271,58.7C1298.8,75,1327,149,1355,181.3C1383.5,213,1412,203,1426,197.3L1440,192L1440,320L1425.9,320C1411.8,320,1384,320,1355,320C1327.1,320,1299,320,1271,320C1242.4,320,1214,320,1186,320C1157.6,320,1129,320,1101,320C1072.9,320,1045,320,1016,320C988.2,320,960,320,932,320C903.5,320,875,320,847,320C818.8,320,791,320,762,320C734.1,320,706,320,678,320C649.4,320,621,320,593,320C564.7,320,536,320,508,320C480,320,452,320,424,320C395.3,320,367,320,339,320C310.6,320,282,320,254,320C225.9,320,198,320,169,320C141.2,320,113,320,85,320C56.5,320,28,320,14,320L0,320Z"></path>
+            </svg>
+        </div>
+
+        <section class="apresentacao">
+            <img src="./public/images/IMG_20201011_200413.png" height="150px">
+            <p>
+                Olá, meu nome é Gabriel. <br>
+                Curso Analise e desenvolvimento <br>
+                de sistemas. Sou um <br>
+                desenvolvedor web júnior <br>
+                (Front-end).
+            </p> <br>
+            <p>
+                Ultimamente estou oferencendo <br>
+                alguns serviços, como desenvolvimento <br>
+                de sites, sistemas web e aplicativos. <br>
+            </p>
+        </section>
+
+        <section class="servicos">
+            <h3>Serviços</h3>
+            <section class="servicos-itens">
+                <div>
+                    <img src="./public/images/icons/icon-site.svg" alt="">
+                    <h2>Criação de Sites</h2>
+                    <p>
+                        Criar um site é <br>
+                        essencial para que a <br>
+                        sua empresa ganhe mais <br>
+                        visibilidade na internet.
+                    </p>
+                </div>
+                <div class="servDescricao">
+                    <img src="./public/images/servicos/app.svg" alt="">
+                    <h2> Criação Aplicativo</h2>
+                    <p>
+                        Um aplicativo para<br>
+                        empresas possibilita <br>
+                        levar ao cliente os <br>
+                        seus serviços de uma <br>
+                        maneira mais simples.
+                    </p>
+                </div>
+                <div class="servDescricao">
+                    <img src="./public/images/servicos/sistemas.svg" alt="">
+                    <h2> Criação de sistemas </h2>
+                    <p>
+                        Um sistema pode aju
+                    </p>
+                </div>
+            </section>
+            <button class="btn-saiba">Saiba mais</button>
             <hr>
-            <P>
-                O site de sua empresa é o ponto de <br>
-                aterrissagem, o primeiro contato que <br>
-                terá com seus clientes um layout <br>
-                bem estruturado, cores em harmonia, <br>
-                carregamento rápido e eficaz, <br>
-                transmite confiança e credibilidade a <br>
-                sua marca.
-            </P>
-            <button class="btn-saibaMais">Saiba mais</button>
-        </section>
-        
-        <section class="section-2">
-            <img src="./public/images/intro1.svg" alt="imffffff">
         </section>
 
-        <section class="serviços">
-            <span>Serviços</span>
-
-            <div>
-                <span>Serviços</span>
-
-               <p>
-                Lorem ipsum dolor sit amet consectetur <br>
-                adipisicing elit. Reiciendis quo velit <br>
-                fugiat cumque aut.
-               </p> 
+        <section>
+            <div class="descricao-servicos">
+                <img src="./public/images/descricao/site-img.svg" alt="">
+                <div>
+                    <h3>Sites</h3>
+                    <p>
+                        O site é como um cartão de visita, onde <br>
+                        seus potenciais clientes vão encontrar <br>
+                        informações sempre atualizadas e <br>
+                        confiáveis sobre sua marca e seus <br>
+                        produtos. <br>
+                        <br>
+                        De acordo com pesquisas do Sebrae, <br>
+                        apenas 27% das empresas no Brasil <br>
+                        possuem sites, o que significa que <br>
+                        esta é também uma forma de <br>
+                        diferenciação. <br>
+                        <button class="btn-saiba">Saiba mais</button>
+                    </p>
+                </div>
             </div>
-
-            <div>
-                
+            <div class="descricao-servicos descApp">
+                <div>
+                    <h3>Aplicativos</h3>
+                    <p>
+                        Um aplicativo para empresas possibilita <br>
+                        levar ao cliente os seus serviços de uma <br>
+                        maneira mais simples e intuitiva. <br>
+                        <br>
+                        Ao disponibilizar um aplicativo, a empresa <br>
+                        estreita os laços com os clientes e permite <br>
+                        que eles se aproximem cada vez mais do <br>
+                        seu negócio.
+                    </p>
+                    <button class="btn-saiba">Saiba mais</button>
+                </div>
+                <img src="./public/images/descricao/app-img.svg" alt="">
             </div>
-
-            <div>
-
+            <div class="descricao-servicos">
+                <img src="./public/images/descricao/sistemas-img.svg" alt="">
+                <div>
+                    <h3>Sistemas</h3>
+                    <p>
+                        Um aplicativo para empresas possibilita <br>
+                        levar ao cliente os seus serviços de uma <br>
+                        maneira mais simples e intuitiva. <br>
+                        Ao disponibilizar um aplicativo, a empresa <br>
+                        estreita os laços com os clientes e permite <br>
+                        que eles se aproximem cada vez mais do seu <br>
+                        negócio.
+                    </p>
+                </div>
             </div>
+        </section>
 
-           
+        <section class="projetos">
+            <h3 style="color: #fff;">Projetos</h3>
+            <hr class="linhaPerson" />
         </section>
     </main>
-    
 
     <footer>
+        <nav>
+            <span> Feira de Santana - BA / Fone: <a href="">(75) 98359-4606</a> / <a href="">gneriz177@gmail.com</a>
+            </span>
+        </nav>
+        <img src="./public/images/footer/instagram.png" alt="">
+        <p>Copyright © 2020 Gabriel Neris | Todos os direitos reservados</p>
+
 
     </footer>
-
     <script src="./public/js/index.js"></script>
 </body>
+
 </html>
