@@ -1,0 +1,55 @@
+.inicio {
+  display: flex;
+  justify-content: space-between;
+  padding: 3%;
+  font-size: 1em;
+
+    h1 {
+        color: #011627;
+        font: 2.6em "Hammersmith One", sans-serif;
+    }
+
+    hr {
+        width: 100px;
+        height: 3px;
+        border-color: #e71d36;
+        background-color: #e71d36;
+    }
+
+    img {
+        height: 400px;
+    }
+
+    .box-texto {
+        font-size: 0.9em;
+        margin-top: 4%;
+        color: rgb(105, 101, 101);
+    }
+}
+
+@media (max-width: 650px) {
+    .inicio img {
+        height: 280px;
+    }
+}
+
+@media(max-width: 940px) {
+  .inicio {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .intro {
+    margin-top: 40px;
+  }
+}  
+
+@media(min-width: 1200px) {
+  .box-texto {
+    font-size: 2em;
+  }
+
+  .intro img {
+    height: 600px;
+  }
+}

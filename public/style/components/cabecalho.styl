@@ -1,0 +1,63 @@
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+
+    .cabecalho-itens {
+      display: flex;
+    }
+
+    a {
+      padding: 0 20px;
+      text-decoration: none;
+      font-size: 1.2em;
+      color: #011627;
+    }
+
+    .box-contato,
+    a:hover {
+      background-color: #e71d36;
+      color: #fff;
+      border-radius: 14px;
+    }
+
+    .box-contato {
+      margin-left: 8px;
+    }
+
+    .cabecalho-itens-mobile a { 
+      text-decoration: none;
+      color: #fff;
+      padding: 10px; 
+    } 
+
+    .icon-menu,
+    .icon-close,
+    .cabecalho-itens-mobile {
+      display: none;
+    }  
+}
+
+@media (max-width: 650px) {
+  .cabecalho {
+    background-color: #011627;
+    color: #fff;
+
+      .cabecalho-itens {
+        display: none;
+      }
+        
+      .cabecalho-itens-mobile {
+        flex-direction: column;
+        position: absolute;
+        background-color: #e71d36;
+        border-radius: 8px;
+        right: 1%;
+        top: 50px;
+      } 
+
+      .icon-menu {
+        display: block;
+      }
+  }
+}

@@ -1,0 +1,33 @@
+.waves .mobile {
+  display: none;
+}
+
+
+animation: {
+  move-left 4s infinite alternate;
+}
+
+@keyframes wave {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+  50% {
+    left: -2000px;
+    top: 200px;
+  }
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+
+@media (max-width: 650px) {
+  .waves .desktop {
+    display: none;
+  }
+
+  .waves .mobile {
+    display: block;
+  }
+}

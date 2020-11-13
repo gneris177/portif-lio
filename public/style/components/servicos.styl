@@ -1,0 +1,49 @@
+.servicos {
+  padding: 30px;
+  text-align: center;
+
+    .servicos-itens {
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .servicos-itens  div {
+      text-align: center;
+      font-size: 0.8em;
+      height: 250px;
+      width: 25%;
+      border-radius: 10px;
+      box-shadow: 8px 5px 5px rgba(0, 0, 0, 0.2);
+      padding: 15px ;
+    }    
+
+    hr {
+    margin-top: 30px;
+    background-color: #011627;
+    height: 2.7px;
+    }
+}        
+
+
+@media (max-width: 650px) {
+  .servicos-itens div {
+    width: 70% !important;
+  }
+}
+
+@media (max-width: 940px) {
+  .servicos-itens {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .descApp {
+    flex-direction: column-reverse;
+  } 
+
+  .servicos-itens div {
+    width: 70% !important;
+    margin-bottom: 4%;
+  }
+}
+
