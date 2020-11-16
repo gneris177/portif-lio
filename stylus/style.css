@@ -6,7 +6,6 @@
 }
 html,
 body {
-  min-width: 350px;
   overflow-x: hidden;
   background-color: #fdfffc;
   color: #011627;
@@ -14,18 +13,14 @@ body {
   font-family: "Bai Jamjuree", sans-serif;
   text-rendering: optimizeLegibility;
 }
-@media (min-width: 1800px) {
+@media (min-width: 1400px) {
   body {
+    min-width: 350px;
     margin: auto;
     width: 50%;
     padding: 10px;
     display: table;
   }
-}
-.cabecalho {
-  display: flex;
-  justify-content: space-between;
-  padding: 20px;
 }
 .cabecalho .cabecalho-itens {
   display: flex;
@@ -58,7 +53,6 @@ body {
 @media (max-width: 650px) {
   .cabecalho {
     background-color: #011627;
-    color: #fff;
   }
   .cabecalho .cabecalho-itens {
     display: none;
@@ -74,8 +68,10 @@ body {
   .cabecalho .icon-menu {
     display: block;
   }
-  .cabecalho .tituloNome {
-    color: #fff;
+}
+@media (min-width: 1200px) {
+  .cabecalho-itens a {
+    padding: 0 40px;
   }
 }
 .inicio {
@@ -177,20 +173,6 @@ animation: {
     top: 0px;
   }
 }
-@keyframes wave {
-  0% {
-    left: 0px;
-    top: 0px;
-  }
-  50% {
-    left: -2000px;
-    top: 200px;
-  }
-  100% {
-    left: 0px;
-    top: 0px;
-  }
-}
 .apresentacao {
   margin: -4px;
   padding: 4%;
@@ -256,17 +238,12 @@ h3 {
 .desc .descricao-servicos h4 {
   font-size: 1.5em;
 }
-.desc .site img {
-  margin-right: 10px;
+.desc .descricao-servicos img {
+  height: 400px;
 }
 @media (max-width: 940px) {
-  .descricao-servicos,
-  descApp {
+  .descricao-servicos {
     flex-wrap: wrap;
-    justify-content: center;
-  }
-  .descApp {
-    flex-wrap: wrap-reverse;
   }
 }
 .projetos {
@@ -282,6 +259,63 @@ h3 {
   }
 }
 footer {
+  display: flex;
   background-color: #7b7b7b;
   color: #fff;
+}
+@-moz-keyframes wave {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+  50% {
+    left: -2000px;
+    top: 200px;
+  }
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+@-webkit-keyframes wave {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+  50% {
+    left: -2000px;
+    top: 200px;
+  }
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+@-o-keyframes wave {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+  50% {
+    left: -2000px;
+    top: 200px;
+  }
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+@keyframes wave {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+  50% {
+    left: -2000px;
+    top: 200px;
+  }
+  100% {
+    left: 0px;
+    top: 0px;
+  }
 }
